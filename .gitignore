@@ -1,0 +1,18 @@
+# compiled output
+fuzzer
+main
+
+# object files
+*.o
+
+# MAC specific files
+*.dSYM
+*.DS_Store
+
+# output files & random input files
+main_output.txt
+z3_output.txt
+output.txt
+input.smt2
+
+
