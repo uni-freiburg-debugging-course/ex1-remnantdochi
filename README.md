@@ -3,7 +3,10 @@
 
 Detailed instructions are in the exercise sheet. Following are your checkpoints:
 
-- [ ] Implement parser and evaluator
-- [ ] Implement a fuzzer
-- [ ] Generate *lots* of random instances with your fuzzer. Your evaluator and z3 must return the same result on generated instances
-- [ ] Provide detailed build instructions for your code so that we can evaluate it
+- [v] Implement parser and evaluator
+- [v] Implement a fuzzer
+- [v] Generate *lots* of random instances with your fuzzer. Your evaluator and z3 must return the same result on generated instances
+- [v] Provide detailed build instructions for your code so that we can evaluate it
+>> ./ex01.sh name_for_random_input.smt2
+random input will be generated
+results are saved as main_ouput.txt, z3_output.txt 
